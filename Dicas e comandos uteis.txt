@@ -1,0 +1,47 @@
+Instalar Sqlite VSCode:
+dotnet add package Microsoft.EntityFrameworkCore.Sqlite --version 5.0.3
+
+https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Sqlite/
+
+export PATH="$PATH:/home/marceloxneves/.dotnet/tools"
+
+Arquivo de Configuracao Variaveis de ambiente:
+/home/.bashrc
+
+Solução falha dotnet ef:
+
+make the configuration below and use the latest version of dotnet-ef:
+
+export PATH="$PATH:$HOME/.dotnet/tools"
+export DOTNET_ROOT=/snap/dotnet-sdk/current
+export MSBuildSDKsPath=$DOTNET_ROOT/sdk/$(${DOTNET_ROOT}/dotnet --version)/Sdks
+export PATH="${PATH}:${DOTNET_ROOT}"
+export PATH="$PATH:$HOME/.dotnet/tools"
+
+
+
+export PATH="$PATH:/home/marceloxneves/.dotnet/tools"
+
+#export DOTNET_ROOT="/snap/dotnet-runtime-50/10/host/fxr/5.0.3"
+#export PATH="$PATH:/snap/dotnet-sdk/112/host/fxr/5.0.3"
+#export PATH="$PATH:$HOME/.dotnet/tools"
+export DOTNET_ROOT=/snap/dotnet-sdk/current
+# export MSBuildSDKsPath=$DOTNET_ROOT/sdk/$(${DOTNET_ROOT}/5.0.3)/Sdks -> Esse aqui deu problema
+export PATH="${PATH}:${DOTNET_ROOT}"
+#export PATH="$PATH:$HOME/.dotnet/tools"
+
+
+https://stackoverflow.com/questions/61568345/install-dotnet-ef-success-but-when-call-it-hit-error
+
+
+
+Instalar Sqlite (Db Browser)
+https://linuxhint.com/install_sqlite_browser_ubuntu/
+
+Instalação SDK Final:
+https://dotnet.microsoft.com/download/dotnet/5.0
+https://docs.microsoft.com/en-us/dotnet/core/install/linux-ubuntu
+https://docs.microsoft.com/en-us/dotnet/core/install/linux-scripted-manual#manual-install
+
+Instalação EF Final:
+https://docs.microsoft.com/pt-br/ef/core/get-started/overview/install
