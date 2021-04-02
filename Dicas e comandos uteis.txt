@@ -45,3 +45,9 @@ https://docs.microsoft.com/en-us/dotnet/core/install/linux-scripted-manual#manua
 
 Instalação EF Final:
 https://docs.microsoft.com/pt-br/ef/core/get-started/overview/install
+
+Falha OmniSharp em intellisense Visual Code:
+necessário instalar .net do repositório comum (não através de pacotes snap)
+
+Links sites
+https://noticias.uol.com.br/colunas/ronilso-pacheco/2021/04/02/pastores-vacina-eua.htm
